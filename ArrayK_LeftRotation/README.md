@@ -18,4 +18,17 @@
  </br>Time Complexity = O(n*k)</br>
     [Check Solution here](https://github.com/akshatprogrammer/Array-Based-Problems-Day3/blob/main/ArrayK_LeftRotation/ShiftBy1Pos.cpp)
     
-  
+## Approach 3:
+  ### Juggling Algorithm 
+   We will divide elements in sets.
+   </br>
+   There will be two loops</br>
+   * Outer loop -> no. of sets.
+   * Inner Loop -> Rotate elementof set k position to left.</br>
+   
+   #### How to find number of sets?
+      Number of sets will depend on the value of n and k.</br>
+      no of sets = gcd(n,k);
+   
+   Make sets and shift the elements in sets.
+   </br>[Check Solution here](https://github.com/akshatprogrammer/Array-Based-Problems-Day3/blob/main/ArrayK_LeftRotation/JugglingAlgo.cpp)
