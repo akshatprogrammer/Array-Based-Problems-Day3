@@ -10,12 +10,12 @@
     
   Space Complexity = O(k)</br>
   Time Complexity = O(n)
-  </br>[Check Solution here]()
+  </br>[Check Solution here](https://github.com/akshatprogrammer/Array-Based-Problems-Day3/blob/main/ArrayK_LeftRotation/ExtraSpace.cpp)
   
 ## Approach 2:
   ### By left rotating by 1 Position each time.
     Run two nested loops and shift one element at a time.
  </br>Time Complexity = O(n*k)</br>
-    [Check Solution here]()
+    [Check Solution here](https://github.com/akshatprogrammer/Array-Based-Problems-Day3/blob/main/ArrayK_LeftRotation/ShiftBy1Pos.cpp)
     
   
