@@ -3,10 +3,10 @@
  
 ## Approach 1:
  ### By Extra Space:
-    * Step 1 : Take a temp. array of size k.
-    * Step 2 : Run a loop from (i=0 to i=k) and store temp[i] = a[i]
-    * Step 3 : Run aloop till (n-k) and a[i] = a[i+k]
-    * Step 4 : Run a loop from (n-k) to n, take j=0 and a[i] = temp[j]
+   * Step 1 : Take a temp. array of size k.
+   * Step 2 : Run a loop from (i=0 to i=k) and store temp[i] = a[i]
+   * Step 3 : Run aloop till (n-k) and a[i] = a[i+k]
+   * Step 4 : Run a loop from (n-k) to n, take j=0 and a[i] = temp[j]
     
   Space Complexity = O(k)</br>
   Time Complexity = O(n)
